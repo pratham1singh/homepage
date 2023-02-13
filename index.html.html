@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://colorhunt.co/palette/125b50f8b400faf5e4ff6363">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+
+        <header>
+          
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="foodlogo2.jpg" class="img-fluid rounded" id="logo" alt=""></a>
+                  
+
+                  <div class="dropdown" id="dropm">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="collapse navbar-collapse" id="navbarText">
+                    <!-- /*ms-auto used to get space between logo and options*/ -->
+                    <ul class="navbar-nav ms-auto"> 
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" >Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#numbers" aria-current="numbers">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#pizza">Pricing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        
+        <br><br><br><br>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-11"></div>
+            <div class="col-sm-1"><a href="#end"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="up"
+              fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+            </svg></a></div>
+          </div>
+        </div>
+        
+        <div class="container-fluid img-fluid" id="img1">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4"><p>You don't need a silver fork to eat good food... <br><button type="button" class="btn btn-outline-danger">Explore</button></p></div>
+                <div class="col-sm-6"></div>
+            </div>
+            
+        </div>
+        <br><br>
+        <div class="container-fluid text-center" id="numbers">
+            <div class="row" id="dummy1"></div>
+            <div class="row">
+                <div class="col-sm-4" id="count1">100</div>
+                <div class="col-sm-4" id="count2">102</div>
+                <div class="col-sm-4" id="count3">203</div>
+            </div>
+            
+            
+        </div>
+        <div class="container-fluid text-center" >
+          <div class="row dummy2"></div>
+          <div class="row bg-creame">
+            <div class="col-sm-6 rounded img-fluid " id="salad"></div>
+            <div class="col-sm-6 font">“It is health that is real wealth and not pieces of gold and silver.”<br><button type="button" class="btn btn-outline-danger">Read more</button></div>
+          </div>
+          <div class="row dummy2"></div>
+          
+      </div>
+      <div class="container-fluid img-fluid" id="pizza" >
+        <div class="row dummy2"></div>
+        <div class="row" >
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 font">When A Man's Stomach is Full it Makes No
+              Difference Whether He is Rich Or Poor.
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo error nihil pariatur quia, iusto, eos est repellendus at ducimus veritatis delectus eum eveniet! Eius laborum nulla recusandae minima ullam?</div>
+          <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5"></div>
+          <div class="col-sm-2"><button type="button" class="btn btn-danger">Explore</button></div>
+          <div class="col-sm-5"></div>
+        </div>
+        
+    </div>
+    <div class="container-fluid" style="color: white;">
+      <div class="dummy2"></div>
+      <div class="row">
+        <div class="col-sm-11"></div>
+        <div class="col-sm-1"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="up"  class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg></a></div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12 container-fluid" id="end">
+            <div class="dummy2"></div>
+            <div class="row">
+              <div class="col-sm-3"> 
+              <ul>
+                  <li><h6>Links</h6></li>
+                  <li>Home</li>
+                  <li>Docs</li>
+              </ul>
+            </div>
+            <div class="col-sm-3"> 
+              <ul>
+                  <li><h6>Guides</h6></li>
+                  <li>Getting started</li>
+                  <li>Sterter template</li>
+              </ul>
+            </div>
+            <div class="col-sm-3"> 
+              <ul>
+                  <li><h6>Projects</h6></li>
+                  <li>Bootstrap 5</li>
+                  <li>bootstrap</li>
+              </ul>
+            </div>
+            <div class="col-sm-3"> 
+              <ul>
+                  <li><h6>Community</h6></li>
+                  <li>issues</li>
+                  <li>Discussions</li>
+              </ul>
+            </div>
+              
+              
+              
+            </div>
+          </div>
+      </div>
+    </div>
+    
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
